@@ -21,3 +21,33 @@ Codes - This folder consists of the different codes required to get the desired 
 Input Videos - Videos of postures
 Output Videos - Videos of postures with skeletal build
 Results
+
+System Requirements:
+
+2GB Hard Disk Space
+Quad Core Processor
+8GB RAM
+Optional: 4GB Grapics Processing Unit(For faster results)
+
+Installation :
+
+Tried and Tested on Spyder platform (Python 3.6) - It should work for any Python shell of version 3.x
+OpenCV
+NumPy
+Matplotlib
+time
+math
+
+Usage :
+
+The codes section contains 5 codes for the 5 different postures along with the input videos. It is also necessary to include the 'pose' folder which consists of the prototext file and caffemodel of the vector building models in the same location as the codes.
+For new inputs of the aforementioned poses, the name of the new video has to be put in line 29 of that particular code.
+
+References :
+
+[1]Z. Cao, T. Simon, S.-E. Wei and Y. Sheikh, "Realtime Multi-Person 2D Pose
+Estimation using Part Affinity Fields," CoRR, vol.abs/1611.08050, 2016.
+[2]M. Hassaballah, A. Ali and H. Alshazly, Image Features Detection, Description and
+Matching, 2016.
+[3]A.Mordvintsev and K.Abid, "OpenCV-Python Tutorials," OpenCV, 2013. [Online].
+Available: https://opencv-python-tutroals.readthedocs.io.
